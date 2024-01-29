@@ -411,6 +411,9 @@ nav ul li a {
     color: white;
   }
 }
+.features {
+  margin-top: 88px;
+}
 .features .features-description {
   color: #606060;
 }
@@ -452,6 +455,9 @@ nav ul li a {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .features {
+    margin-top: 104px;
+  }
   .features .cta-btn {
     margin-bottom: 0;
     font-size: 18px;
