@@ -1,0 +1,101 @@
+// Colors
+$primary: #E27731;
+$white: #FFFFFF;
+$grey800: #525252;
+$grey700: #606060;
+$grey600: #8B8B8B;
+$grey500: #E6E6E6;
+$grey400: #E5E5E5; 
+$grey300: #F4F4F4;
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: $grey800;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 8px 0px 20px 0px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h4 {
+  color: $grey600;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+section {
+  margin-top: 88px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.hidden,
+.auto {
+  overflow: hidden;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 24px !important;
+  }
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .container {
+    margin: 0 61px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    margin-left: 80px !important;
+    margin-right: 80px !important;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .container {
+    min-width: 1100px;
+    margin: 0 194px;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1919px) {
+  .container {
+    margin: 0 194px !important;
+
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    width: 1532px !important;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1919px) {
+  .container {
+    width: auto !important;
+  }
+}

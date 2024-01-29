@@ -1,0 +1,50 @@
+[
+  {
+    "title": "VOICE COMMENT",
+    "text": "Organize your ideas. Attach voice comments to your documents.",
+    "icon": "mic",
+    "imgSrc": "/assets/img/feature/feature_voiceComment.png",
+    "imgSrcset": "/assets/img/feature/feature_voiceComment.png 582w, /assets/img/feature/feature_voiceComment_desktop.png 300w",
+    "imgSizes": "(max-width: 767px) 100vw, 50vw"
+  },
+  {
+    "title": "AUTO-CROP",
+    "text": "Adjust the perspective of your document with frame detector.",
+    "icon": "format_shapes",
+    "imgSrc": "/assets/img/feature/feature_autoCrop.png",
+    "imgSrcset": "/assets/img/feature/feature_autoCrop.png 582w, /assets/img/feature/feature_autoCrop_desktop.png 300w",
+    "imgSizes": "(max-width: 767px) 100vw, 50vw"
+  },
+  {
+    "title": "ZOOM",
+    "text": "Zoom on photo view allows you to configure the working scale.",
+    "icon": "zoom_in",
+    "imgSrc": "/assets/img/feature/feature_zoom.png",
+    "imgSrcset": "/assets/img/feature/feature_zoom.png 582w, /assets/img/feature/feature_zoom_desktop.png 300w",
+    "imgSizes": "(max-width: 767px) 100vw, 50vw"
+  },
+  {
+    "title": "Text Comment",
+    "text": "Organize your ideas. Attach voice comments to your documents.",
+    "icon": "comment",
+    "imgSrc": "/assets/img/feature/feature_textComment.png",
+    "imgSrcset": "/assets/img/feature/feature_textComment.png 582w, /assets/img/feature/feature_textComment_desktop.png 300w",
+    "imgSizes": "(max-width: 767px) 100vw, 50vw"
+  },
+  {
+    "title": "TAGS",
+    "text": "Use tags to identify your documents and easily find them.",
+    "icon": "local_offer",
+    "imgSrc": "/assets/img/feature/feature_tags.png",
+    "imgSrcset": "/assets/img/feature/feature_tags.png 582w, /assets/img/feature/feature_tags_desktop.png 300w",
+    "imgSizes": "(max-width: 767px) 100vw, 50vw"
+  },
+  {
+    "title": "SHARE",
+    "text": "In PDF or JPEG format, via email, cloud sources or social media.",
+    "icon": "share",
+    "imgSrc": "/assets/img/feature/feature_share.png",
+    "imgSrcset": "/assets/img/feature/feature_share.png 582w, /assets/img/feature/feature_share_desktop.png 300w",
+    "imgSizes": "(max-width: 767px) 100vw, 50vw"
+  }
+]

@@ -1,0 +1,16 @@
+.cta-btn {
+  border-radius: 12px;
+  padding: 12px 28px;
+  display: inline-block;
+  width: fit-content;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: $primary; 
+}
+
+.btn-primary {
+  color: white;
+  background-color: $primary; 
+}

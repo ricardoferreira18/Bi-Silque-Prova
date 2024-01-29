@@ -1,0 +1,95 @@
+.possibilities {
+  background-color: $grey300;
+  padding-top: 64px; 
+  padding-bottom: 64px; 
+
+  h3 {
+    color: $grey800;
+    padding-top: 8px;
+    padding-bottom: 32px; 
+  }
+}
+
+.carousel {
+  display: flex;
+  overflow-y: hidden !important;
+  overflow-x: auto; 
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch; 
+  width: 100%; 
+  gap: 16px;
+
+  .col-3 {
+    display: inline-block;
+    width: 90%; 
+    max-width: 282px; 
+    white-space: normal;
+    vertical-align: top;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .possibilities {
+    padding-top: 104px;
+    padding-bottom: 104px;
+  }
+
+  h3 {
+    padding-bottom: 56px;
+  }
+
+
+}
+
+@media screen and (min-width: 1025px) {
+  .carousel {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    gap:0px;
+    .col-3 {
+      padding: 0 8px;
+    }
+  }
+}
+
+.card-possibilities {
+  min-width: 90%; 
+  max-width: 282px; 
+  background-color: $grey400;
+  border-radius: 12px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .card-possibilities-text {
+    padding: 16px; 
+
+    .material-icons-round {
+      font-size: 20px; 
+    }
+
+    .card-possibilities-title {
+      font-size: 16px; 
+      line-height: 28px; 
+      padding-top: 12px;
+      padding-bottom: 8px; 
+      color: $primary;
+    }
+
+    .card-possibilities-description {
+      font-size: 14px; 
+      line-height: 18px; 
+      color: $grey800;
+    }
+  }
+
+  .card-possibilities-image {
+    img {
+      justify-self: end;
+      width: 100%; 
+      border-radius: 12px;
+    }
+  }
+}

@@ -1,0 +1,149 @@
+
+
+.header {
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  min-height: 76px;
+  top: 0;
+  
+}
+nav {
+  ul {
+    padding-bottom: 104px;
+    padding-top: 52px;
+    padding-left: 0;
+    margin-bottom: 0;
+    li{
+      a{
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 500;
+        color: $grey800!important;
+        padding-bottom: 32px;
+        text-transform: uppercase
+      }
+    }
+  }
+}
+
+
+
+.toggle-white {
+  background-color: white;
+  box-shadow: 0px 4px 20px #0000000F;
+  transition: 0.3s;
+
+}
+
+.toggle-orange{
+  background-color: transparent;
+}
+
+.header-flex{
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.tablet-desktop-nav {
+  display: none;
+}
+
+@media only screen and (min-width: 767px)  {
+  .icons{
+    display: none;
+  }
+  
+  .tablet-desktop-nav {
+    display: block;
+
+    .tablet-desktop-nav-flex{
+      display: flex;
+      margin-bottom: 0;
+      gap: 56px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+  }
+}
+
+@media screen  and (min-width: 767px) and (max-width: 1300px) {
+  .header-flex {
+    min-height: 120px;
+  }
+}
+
+.tablet-desktop-nav {
+  .text-black:link {
+    text-decoration: none;
+    color:$grey800!important;
+
+}
+ .text-black:visited{
+  text-decoration: none;
+  color:$grey800!important;
+
+}
+}
+
+
+
+
+
+.white {
+  color: white;
+}
+.primary{
+  color: #E27731;
+}
+
+.menu-open{
+  background-color: white;
+  width: 100%;
+  
+  li {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 32px;
+    a:link {
+      text-decoration: none;
+      color: $grey800;
+    }
+    
+    a:visited {
+      color: $grey800;
+      text-decoration: none;    
+    }
+  }  
+}
+
+.overflowauto {
+  overflow: auto;
+}
+.overhidden{
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    height: 120px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    min-width: 100%;
+  }
+  .header-flex {
+    align-items: baseline;
+  }
+
+  .onChangeBlack {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+}

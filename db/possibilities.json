@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Education",
+    "description": "Capture exercises & share add voice and written notes for homework and studies.",
+    "icon": "school",
+    "imageSrc": "/assets/img/possibilities/education_mobile.jpg",
+    "imgSrcset": "/assets/img/possibilities/education_mobile.jpg  760w, /assets/img/possibilities/education_tablet.jpg  992w, /assets/img/possibilities/education_desktop.jpg 992w",
+    "imgSizes": "(max-width: 760px) 760px, (max-width: 992px) 992px, 1200px"
+  },
+  {
+    "title": "Corporate",
+    "description": "Keep a record of the whiteboard's visuals and add notes to share among the team.",
+    "icon": "work",
+    "imageSrc": "/assets/img/possibilities/corporate_mobile.jpg",
+    "imgSrcset": "/assets/img/possibilities/corporate_mobile.jpg  760w, /assets/img/possibilities/corporate_tablet.jpg  992w, /assets/img/possibilities/corporate_desktop.jpg 992w",
+    "imgSizes": "(max-width: 760px) 760px, (max-width: 992px) 992px, 1200px"
+  },
+  {
+    "title": "Industrial",
+    "description": "Easily share the team's results and keep them organized in digital folders.",
+    "icon": "factory",
+    "imageSrc": "/assets/img/possibilities/industrial_mobile.jpg",
+    "imgSrcset": "/assets/img/possibilities/industrial_mobile.jpg  760w, /assets/img/possibilities/industrial_tablet.jpg  992w, /assets/img/possibilities/industrial_desktop.jpg 992w",
+    "imgSizes": "(max-width: 760px) 760px, (max-width: 992px) 992px, 1200px"
+  },
+  {
+    "title": "Healthcare",
+    "description": "Avoid mistakes by keeping a record of important information.",
+    "icon": "health_and_safety",
+    "imageSrc": "/assets/img/possibilities/healthcare_mobile.jpg",
+    "imgSrcset": "/assets/img/possibilities/healthcare_mobile.jpg  760w, /assets/img/possibilities/healthcare_tablet.jpg  992w, /assets/img/possibilities/healthcare_desktop.jpg 992w",
+    "imgSizes": "(max-width: 760px) 760px, (max-width: 992px) 992px, 1200px"
+  }
+]

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/index.css" />
+  </head>
+
+  <body class="overflowauto">
+    <!-- Navigation for mobile devices -->
+    <div class="hero">
+      <div id="header" class="header">
+        <div class="containerfluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="container">
+                <div class="header-flex" id="menu-close">
+                  <div>
+                    <a href="#">
+                      <img
+                        id="logo_white"
+                        src="/assets/img/logo/logo-white.png"
+                        class="logo"
+                        alt="hubing_scan_logo"
+                      />
+                      <img
+                        id="logo_color"
+                        src="/assets/img/logo/logo_color.png"
+                        class="logo d-none"
+                        alt="hubing_scan_logo"
+                      />
+                    </a>
+                  </div>
+                  <!-- Mobile/Tablet navigation -->
+                  <div class="icons">
+                    <span class="material-icons-round white" id="hamburger"
+                      >menu</span
+                    >
+                  </div>
+
+                  <!-- End Mobile/Tablet navigation -->
+                  <!-- Start Desktop navigation -->
+                  <div class="tablet-desktop-nav">
+                    <ul class="tablet-desktop-nav-flex">
+                      <li>
+                        <a
+                          class="onChangeBlack"
+                          href="#"
+                          onclick="scrollToSection('possibilities')"
+                          >About</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="onChangeBlack"
+                          href="#"
+                          onclick="scrollToSection('features')"
+                          >Features</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="onChangeBlack"
+                          href="#"
+                          onclick="scrollToSection('download')"
+                          >Download</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End Desktop navigation -->
+                </div>
+              </div>
+
+              <!-- Start Mobile menu open -->
+              <div class="menu-open d-none" id="menu-open">
+                <div class="header-flex container">
+                  <div>
+                    <a href="#">
+                      <img
+                        src="/assets/img/logo/logo_color.png"
+                        class="logo"
+                        alt="hubing_scan_logo"
+                      />
+                    </a>
+                  </div>
+                  <div>
+                    <span class="material-icons-round primary" id="close"
+                      >close</span
+                    >
+                  </div>
+                </div>
+                <nav>
+                  <ul>
+                    <li>
+                      <a href="#" onclick="scrollToSection('features')"
+                        >FEATURES</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" onclick="scrollToSection('possibilities')"
+                        >USAGE</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" onclick="scrollToSection('download')"
+                        >DOWNLOAD</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- End Mobile menu open -->
+            </div>
+          </div>
+        </div>
+        <!-- End of Mobile navigation -->
+      </div>
+      <!-- Inicio Aparecer a camada mais escura quando se clica no menu -->
+      <div id="overlay"></div>
+      <!-- Fim Aparecer a camada mais escura quando se clica no menu -->
+      <div class="container">
+        <div class="row min-h-100">
+          <div class="hero-text col-12 col-lg-7 min-h-100">
+            <span>Everything goes digital</span>
+            <h1>SCAN DOCUMENTS AND IDEAS DIRECTLY TO YOUR FILES</h1>
+            <p>
+              This tool is everything you need to capture the whiteboard's
+              written contents, add notes and share with the team.
+            </p>
+            <a href="">
+              <div class="flex-qr cta-btn btn-secondary">
+                <img src="/assets/img/qr-code/qr-code-download.png" />
+                <span class="hero-download-text"
+                  >Scan To <br />
+                  Download</span
+                >
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="arrow">
+        <span class="material-icons-round notranslate">expand_more</span>
+      </div>
+    </div>
+    <!-- End of Navigation for mobile devices -->
+
+    <!-- Main Content -->
+    <main>
+      <!-- Features -->
+      <div class="features">
+        <section class="container">
+          <div class="row">
+            <div class="col-12 col-sm-9 col-lg-5">
+              <h4>Features</h4>
+              <h2 class="features-title">
+                TAKE WHITEBOARD NOTES TO THE NEXT LEVEL
+              </h2>
+              <p class="features-description">
+                Quickly captures the output of brainstorm or collaborative
+                meetings and makes them sharable with additional text or voice
+                notes.
+              </p>
+              <div class="d-flex align-items-end mb-0">
+                <a href="">
+                  <div class="cta-btn btn-primary">Try it now</div>
+                </a>
+                <a class="desktop" href="">
+                  <div class="cta-btn text-black text-black-hover">
+                    Where to use it
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="row features-card" id="featuresId">
+                <!-- Os cards são criados em js -->
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- End of Features -->
+
+      <!-- Possibilities -->
+      <section class="possibilities" id="possibilities">
+        <div class="container">
+          <div class="row">
+            <h4>Where how to use</h4>
+            <h3>Unlimited possibilities</h3>
+          </div>
+        </div>
+        <div class="container">
+          <div class="carousel" id="possibilitiesId">
+            <!-- Os cards são criados em js -->
+          </div>
+        </div>
+      </section>
+      <!-- End of Possibilities -->
+
+      <!-- Download Section -->
+      <section class="download" id="download">
+        <div class="container">
+          <a href="">
+            <div class="download-flex">
+              <div class="download-text">
+                <h4>Where how to use</h4>
+                <h3>Unlimited possibilities</h3>
+              </div>
+              <div class="flex-qr cta-btn btn-primary">
+                <img src="/assets/img/qr-code/qr-code-download.png" />
+                <span class="hero-download-text"
+                  >Scan To <br />
+                  Download</span
+                >
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- End of Download Section -->
+    </main>
+    <!-- End of Main Content -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="image-reserved col-12 col-md-5">
+            <img src="/assets/img/logo/logo-white.png" class="logo" alt="" />
+            <p><span>&#169;</span>HUBING Scan 2023</p>
+            <p>All rights reserved</p>
+            <p class="dev-by-bi-bright-tablet">
+              Developed by
+              <span>
+                <a href="https://www.bibright.com/" target="_blank"
+                  >Bi-Bright</a
+                >
+              </span>
+            </p>
+          </div>
+          <div class="hubing-products col-12 col-md-3">
+            <h3>Hubing Products</h3>
+            <ul>
+              <li>
+                <a href="https://hubing.solutions/hubing-scan/" target="_blank"
+                  >Hubing Scan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://notes.hubing.solutions/index.php?p=index&lang=pt"
+                  target="_blank"
+                  >Hubing Notes</a
+                >
+              </li>
+              <li>
+                <a href="https://hubing.solutions/hubing-space/" target="_blank"
+                  >Hubing Space</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="get-in-touch col-12 col-md-4">
+            <h3>GET IN TOUCH WITH US:</h3>
+            <p class="e-mail-footer">
+              <a href="mailto:marketing@bibright.com" bis_skin_checked="1"
+                >marketing@bibright.com</a
+              >
+            </p>
+            <p class="phone-footer">
+              <a href="tel:+351256750120"> +351 256 750 120 </a><br />
+              <span>(Call to the Portuguese Landline network)</span>
+            </p>
+          </div>
+        </div>
+        <p class="dev-by-bi-bright">
+          Developed by
+          <span>
+            <a href="https://www.bibright.com/" target="_blank">Bi-Bright</a>
+          </span>
+        </p>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <script type="module" src="js/main.js"></script>
+    <script>
+      /* 
+      Esta função foi criada aqui para demonstrar a capacidade de implementá-la neste local.
+      Ao clicar em um link, a página rola suavemente para o topo do elemento referenciado pelo ID.
+      Como o cabeçalho é fixo, a função calcula a altura do mesmo para garantir que o elemento completo seja visível.
+      A opção 'smooth' proporciona uma transição suave durante a rolagem.
+
+      */
+      function scrollToSection(sectionId) {
+        const targetElement = document.getElementById(sectionId);
+        if (targetElement) {
+          const offset = targetElement.offsetTop;
+          window.scrollTo({
+            top: offset,
+            behavior: 'smooth',
+          });
+        }
+      }
+    </script>
+  </body>
+</html>
